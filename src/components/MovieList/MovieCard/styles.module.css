@@ -1,0 +1,34 @@
+.card {
+  display: grid;
+  grid-template-columns: min-content 1fr min-content;
+  gap: 2.4rem;
+  align-items: flex-start;
+}
+
+.poster {
+  border-radius: 0.8rem;
+  object-fit: cover;
+  background-color: var(--gray-100);
+}
+
+.movieInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  align-items: flex-start;
+}
+
+.movieInfo h3 {
+  font-size: 2rem;
+  line-height: 1;
+}
+
+.movieInfo span {
+  line-height: 2rem;
+  font-style: italic;
+}
+
+.controls {
+  display: flex;
+  gap: 2.4rem;
+}

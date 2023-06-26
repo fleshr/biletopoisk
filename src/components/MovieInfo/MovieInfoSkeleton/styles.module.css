@@ -1,0 +1,97 @@
+.container {
+  display: grid;
+  grid-template-columns: min-content 1fr;
+  gap: 3.2rem;
+}
+
+.poster,
+.header,
+.detailsRow div,
+.description div {
+  background-color: var(--gray-100);
+  animation: var(--animation-pulse);
+  border-radius: 0.4rem;
+}
+
+.poster {
+  border-radius: 0.8rem;
+  width: 40rem;
+  height: 50rem;
+}
+
+.header {
+  width: 40rem;
+  height: 3.2rem;
+}
+
+.details {
+  margin: 2.4rem 0 3.2rem;
+  display: grid;
+  gap: 1.6rem;
+}
+
+.detailsRow {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.detailsRow div {
+  height: 2.4rem;
+}
+
+.detailsRow:nth-child(1) div:nth-child(1) {
+  width: 6rem;
+}
+
+.detailsRow:nth-child(1) div:nth-child(2) {
+  width: 8rem;
+}
+
+.detailsRow:nth-child(2) div:nth-child(1) {
+  width: 12rem;
+}
+
+.detailsRow:nth-child(2) div:nth-child(2) {
+  width: 5rem;
+}
+
+.detailsRow:nth-child(3) div:nth-child(1) {
+  width: 8rem;
+}
+
+.detailsRow:nth-child(3) div:nth-child(2) {
+  width: 2rem;
+}
+
+.detailsRow:nth-child(4) div:nth-child(1) {
+  width: 10rem;
+}
+
+.detailsRow:nth-child(4) div:nth-child(2) {
+  width: 15rem;
+}
+
+.detailsRow h3,
+.detailsRow span {
+  font-size: 2rem;
+  line-height: 2.4rem;
+}
+
+.description div:nth-child(1) {
+  width: 9rem;
+  height: 3.2rem;
+}
+
+.description div:nth-child(2),
+.description div:nth-child(3) {
+  margin-top: 1.6rem;
+  height: 2rem;
+}
+
+.description div:nth-child(2) {
+  width: 100%;
+}
+
+.description div:nth-child(3) {
+  width: 60%;
+}

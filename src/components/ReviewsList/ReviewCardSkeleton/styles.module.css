@@ -1,0 +1,53 @@
+.container {
+  display: grid;
+  grid-template-columns: min-content 1fr;
+  gap: 3.2rem;
+}
+
+.avatar,
+.header > div:nth-child(1),
+.rating > div,
+.review > div {
+  background-color: var(--gray-100);
+  animation: var(--animation-pulse);
+  border-radius: 0.4rem;
+}
+
+.avatar {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 0.8rem;
+}
+
+.rating > div,
+.header > div {
+  height: 3.2rem;
+}
+
+.header,
+.rating {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.8rem;
+}
+
+.header > div:nth-child(1) {
+  width: 8rem;
+}
+
+.rating > div:nth-child(1) {
+  width: 7rem;
+}
+
+.rating > div:nth-child(2) {
+  width: 2rem;
+}
+
+.review > div {
+  margin-top: 1.6rem;
+  height: 2.4rem;
+}
+
+.review > div:nth-child(2) {
+  width: 60%;
+}

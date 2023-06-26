@@ -1,0 +1,21 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr min-content;
+  gap: 3.2rem;
+  padding: 2.4rem;
+  cursor: pointer;
+  align-items: center;
+}
+
+.expanded {
+  padding-bottom: 1.6rem;
+}
+
+.icon {
+  font-size: 3.2rem;
+  color: var(--gray-800);
+}
+
+.rotate {
+  transform: rotate(180deg);
+}

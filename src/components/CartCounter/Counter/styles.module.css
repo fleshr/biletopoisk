@@ -1,0 +1,12 @@
+.counter {
+  min-width: 2.8rem;
+  height: 2.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 0.6rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+  border-radius: 0.8rem;
+  background-color: var(--orange-500);
+}

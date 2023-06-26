@@ -1,0 +1,11 @@
+.container {
+  display: grid;
+  gap: 0.4rem;
+}
+
+.container h3 {
+  font-family: var(--font-sf-pro-text);
+  font-size: 1.4rem;
+  line-height: 2rem;
+  font-weight: 400;
+}

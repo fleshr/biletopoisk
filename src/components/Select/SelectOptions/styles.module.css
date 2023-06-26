@@ -1,0 +1,12 @@
+.options {
+  position: fixed;
+  padding: 0.8rem;
+  border-radius: 0.8rem;
+  margin-top: 4.4rem;
+  background-color: var(--white);
+  box-shadow: 0px 10px 22px -4px rgba(27, 31, 35, 0.12);
+}
+
+.hide {
+  display: none;
+}

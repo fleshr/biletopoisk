@@ -1,0 +1,7 @@
+.option {
+  font-family: var(--font-sf-pro-text);
+  font-size: 1.4rem;
+  line-height: 2rem;
+  padding: 1.2rem 1.2rem 1rem;
+  cursor: pointer;
+}

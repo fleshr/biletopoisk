@@ -1,0 +1,9 @@
+.container {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.icon {
+  font-size: 3.2rem;
+}

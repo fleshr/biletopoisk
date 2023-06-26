@@ -1,0 +1,48 @@
+.container {
+  display: grid;
+  grid-template-columns: min-content 1fr;
+  gap: 3.2rem;
+}
+
+.poster {
+  border-radius: 0.8rem;
+  object-fit: cover;
+  background-color: var(--gray-100);
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr min-content;
+  align-items: flex-start;
+}
+
+.header h1 {
+  font-size: 3.2rem;
+  line-height: 1;
+}
+
+.details {
+  margin: 2.4rem 0 3.2rem;
+  display: grid;
+  gap: 1.6rem;
+}
+
+.detailsRow {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.detailsRow h3,
+.detailsRow span {
+  font-size: 2rem;
+  line-height: 2.4rem;
+}
+
+.description h2 {
+  font-size: 2rem;
+  line-height: 3.2rem;
+}
+
+.description p {
+  margin-top: 1.6rem;
+}
