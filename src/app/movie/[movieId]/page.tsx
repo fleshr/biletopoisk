@@ -16,20 +16,11 @@ export default function Page({ params: { movieId } }: IProps) {
   );
 }
 
-export async function getStaticPaths() {
-  if (process.env.SKIP_BUILD_STATIC_GENERATION) {
-    return {
-      paths: [],
-      fallback: "blocking",
-    };
-  }
-
+export async function generateStaticParams() {
   const res = await fetch("http://localhost:3001/api/movies");
   const movies: IMovieInfo[] = await res.json();
 
-  const paths = movies.map((movie) => ({
-    params: { movieId: movie.id },
+  return movies.map((post) => ({
+    movieId: post.id,
   }));
-
-  return { paths, fallback: false };
 }
